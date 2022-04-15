@@ -9,13 +9,19 @@ h1 {
     margin: 0;
 }
 
+.main {
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+
 .primary-button {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-family: 'Kanit', sans-serif;
     border: none;
-    background-color: #ee4035;
+    background-color: #c93738;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 1em;
     box-sizing: border-box;
     transition: all .2s ease-in-out;

@@ -1,0 +1,11 @@
+.gundam-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 302px);
+    grid-template-rows: repeat(1, 500px);
+    gap: 2em;
+
+    @media screen and (max-width: 400px) {
+        grid-template-columns: 302px;
+        gap: 2.7em;
+    }
+}
