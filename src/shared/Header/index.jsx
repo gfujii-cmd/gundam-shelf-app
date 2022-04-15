@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <div className="header">
                 <div className="header__title">
-                    <h3>GUNDAM WORLD</h3>
+                    <h3>GUNDAM SHELF</h3>
                     <img src={gundamHead} alt="gundam-head"></img>
                 </div>
                 <div className="header__menu">
