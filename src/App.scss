@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;800&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.primary-button {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Kanit', sans-serif;
+    border: none;
+    background-color: #ee4035;
+    color: white;
+    border-radius: 20px;
+    padding: 1em;
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+    max-height: 50px;
+
+    &:hover {
+        transform: scale(1.04);
+    }
+}
