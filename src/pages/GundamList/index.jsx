@@ -17,13 +17,17 @@ const GundamList = () => {
         })
     }
 
+    const deleteGundam = (id) => {
+        setGundamList(gundamList.filter(gundam => gundam.id !== id));
+    }
+
     useEffect(() => {
         getAll();
     }, [])
 
     return (
         <div className="gundam-grid">
-            {gundamList.map(gundam => <GundamCard key={gundam.id} year={gundam.year} imageUrl={'https://grandtoyscollection.com.br/wp-content/uploads/2021/12/image-2-22-300x300.jpg'} title={gundam.name} story={gundam.story}></GundamCard>)}
+            {gundamList.map(gundam => <GundamCard deleteGundam={(id) => deleteGundam(id)} gundamId={gundam.id} key={gundam.id} year={gundam.year} imageUrl={'https://grandtoyscollection.com.br/wp-content/uploads/2021/12/image-2-22-300x300.jpg'} title={gundam.name} story={gundam.story}></GundamCard>)}
         </div>
     );
 }
