@@ -40,7 +40,7 @@ const GundamForm = () => {
                 <textarea maxLength="170" rows="5" cols="35" id="story" value={story} onChange={e => setStory(e.target.value)} className="text_area"></textarea>
             </div>
             <input type="submit" value="Add" className="submit_input"></input>
-            <button onClick={navigate(-1)} className="primary-button">Go back</button>
+            <button onClick={() => navigate(-1)} className="primary-button">Go back</button>
         </form>
     )
 }
