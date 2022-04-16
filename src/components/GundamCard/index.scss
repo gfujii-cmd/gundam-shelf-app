@@ -10,6 +10,11 @@
     transition: all .2s ease-in-out;
     border-radius: 20px;
 
+    &__delete_button {
+        width: 50%;
+        margin: 1em auto;
+    }
+
     &__image > img {
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;

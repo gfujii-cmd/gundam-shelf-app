@@ -23,7 +23,7 @@ const Card = (props) => {
                     <h3 className="card__description__title">{props.title} - {props.year}</h3>
                     <p className="card__description__story">{props.story}</p>
                 </div>
-                <button className="primary-button" onClick={() => deleteGundam()}>Delete</button>
+                <button className="primary-button card__delete_button" onClick={() => deleteGundam()}>Delete</button>
             </div>
         </>
     );
