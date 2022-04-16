@@ -18,6 +18,12 @@
     &__title img {
         max-width: 40px;
     }
+
+    @media screen and (max-width: 450px){
+        &__title {
+            font-size: 0.4em;
+        }
+    }
 }
 
 .header h3 {

@@ -4,7 +4,12 @@
     grid-template-rows: repeat(1, 500px);
     gap: 2em;
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 675px) {
+        grid-template-columns: 1fr;
+        gap: 2.7em;
+    }
+
+    @media screen and (max-width: 375px) {
         grid-template-columns: 302px;
         gap: 2.7em;
     }
