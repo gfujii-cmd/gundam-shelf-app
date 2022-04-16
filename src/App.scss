@@ -32,3 +32,40 @@ h1 {
         transform: scale(1.04);
     }
 }
+
+.submit_input {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    color: white;
+    background-color: #c93738;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 50px;
+    height: 3em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        background-color: #ff1919;
+        margin-top: -4px;
+    }
+}
+
+.text_input {
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid orange;
+    height: 2em;
+    box-sizing: border-box;
+    padding: 1.3em;
+    border-radius: 20px;
+}
+
+.text_area {
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 1em;
+    box-sizing: border-box;
+}

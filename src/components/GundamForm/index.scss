@@ -1,0 +1,12 @@
+.gundam_form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0 auto;
+    width: 50%;
+
+    .gundam_form__data {
+        display: flex;
+        flex-direction: column;
+    }
+}
